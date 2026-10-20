@@ -43,7 +43,7 @@ public class DeptInsertServlet extends HttpServlet{
 		String driver = "com.mysql.cj.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/cloud1";
 		String username = "root";
-		String password = System.getenv("JSP1020_DB_PASSWORD");
+		String password = "1111";
 		
 			Connection conn = null;
 			PreparedStatement pstmt = null;
