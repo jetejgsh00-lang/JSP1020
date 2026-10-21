@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EMP 에 데이터 저장</title>
+</head>
+<body>
+	<h2>EMP 에 데이터 저장</h2>
+	<form action="/JSP1021/empInsert" method="post">
+		<fieldset>
+			<legend>EMP 폼</legend>
+			<ul>
+				<li>
+				<label for="empno">사원번호</label>
+				<input type="number" name="empno" required>
+				</li>
+				
+				<li>
+				<label for="ename">사원이름</label>
+				<input type="text" name="ename" required>
+				</li>
+				
+				<li>
+				<label for="job">직업</label>
+				<input type="text" name="job" required>
+				</li>
+				
+				<li>
+				<label for="mgr">사수번호</label>
+				<input type="number" name="mgr" required>
+				</li>
+				
+				<li>
+				<label for="hiredate">입사일</label>
+				<input type="text" name="hiredate" required>
+				</li>
+				
+				<li>
+				<label for="sal">급여</label>
+				<input type="number" name="sal" required>
+				</li>
+				
+				<li>
+				<label for="comm">커미션</label>
+				<input type="number" name="comm" required>
+				</li>
+				
+				<li>
+				<label for="deptno">부서번호</label>
+				<input type="number" name="deptno" required>
+				</li>
+				
+				<li>
+				<input type="submit" value="저장">
+				</li>
+			
+			</ul>
+		</fieldset>
+	</form>
+
+</body>
+</html>

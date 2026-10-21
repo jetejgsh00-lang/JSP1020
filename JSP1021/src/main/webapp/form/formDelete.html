@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EMP 테이블 데이터 삭제</title>
+</head>
+<body>
+	<h3>EMP 테이블 데이터 삭제</h3>
+	<form action="/JSP1021/empDelete" method="post">
+	<!-- action 은 폴더 기준으로 경로를 붙이기때문에 폴더안에 넣었을때 상위경로를 입력해주어야한다. -->
+		<fieldset>
+				<li>
+				<label for="deptno">부서번호</label>
+				<input type="number" name="deptno" required>
+				</li>
+				
+				<li>
+				<button type="submit">삭제</button>
+				</li>
+			
+			</ul>
+		
+		</fieldset>
+	
+	</form>
+
+	
+
+</body>
+</html>
